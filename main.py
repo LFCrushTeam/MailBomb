@@ -37,30 +37,30 @@ def send_mail( event ):
 		result [ 'text' ] = 'x' + str( value )
 
 
-Tlogin = Label( text = 'Логин:', font = 'Consolas', background='yellow'  )
+Tlogin = Label( text = 'Login:', font = 'Consolas', background='yellow'  )
 login = Entry( screen, font = 'Consolas' )
 
-Tpassword = Label( text = 'Пароль:', font = 'Consolas', background='yellow'  )
+Tpassword = Label( text = 'Password:', font = 'Consolas', background='yellow'  )
 password = Entry( screen, font = 'Consolas' )
 
 Turl = Label( text = 'smtp:', font = 'Consolas', background='yellow' )
 url = Entry( screen, font = 'Consolas' )
 
-Ttoaddr = Label( text = 'Кому:', font = 'Consolas', background='yellow' )
+Ttoaddr = Label( text = 'To whom:', font = 'Consolas', background='yellow' )
 toaddr = Entry( screen, font = 'Consolas' )
 
-Ttopic = Label( text = 'Тема:', font = 'Consolas', background='yellow'  )
+Ttopic = Label( text = 'Theme:', font = 'Consolas', background='yellow'  )
 topic = Entry( screen, font = 'Consolas' )
 
-Tmess = Label( text = 'Сообщение:', font = 'Consolas', background='yellow'  )
+Tmess = Label( text = 'Message:', font = 'Consolas', background='yellow'  )
 mess = Entry( screen, font = 'Consolas' )
 
-Tnumber = Label( text = 'Сколько сообщений:', font = 'Consolas', background='yellow'  )
+Tnumber = Label( text = 'Message count:', font = 'Consolas', background='yellow'  )
 number = Entry( screen, font = 'Consolas' )
 
-enter = Button( text = 'Начать флудить', font = 'Consolas', width = 18 , background='yellow' )
+enter = Button( text = 'Start flooding', font = 'Consolas', width = 18 , background='yellow' )
 
-result = Label( text = 'Зафлуженно:', font = 'Consolas' , background='yellow' )
+result = Label( text = 'Flooded:', font = 'Consolas' , background='yellow' )
 
 
 Tlogin.grid( row = 0, column = 0, sticky = W, padx = 1, pady = 1 )
